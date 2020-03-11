@@ -1,0 +1,6 @@
+module Pods_SimpleChat {
+  umbrella header "Pods-SimpleChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
