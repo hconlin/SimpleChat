@@ -14,7 +14,7 @@ class ConversationController: UIViewController, UITableViewDelegate, UITableView
     var nickname: String!
     var socket: SocketIOClient!
     var fromViewController: ViewController?
-    //set socketURL: URL(string: "http://your-ip-address:8900")
+    //set socketURL: URL(string: "http://ip-address-for-server:portnumber")
     let manager = SocketManager(socketURL: URL(string: "http://localhost:8900")!, config: [.log(true), .compress])
     
     @IBOutlet weak var messageField: UITextField!
